@@ -3,9 +3,11 @@
 
 
 ## 准备工作
-###python 2.7<br/>
+### python 2.7<br/>
+
 电脑自带的2.7<br/> 
-###virtualenv<br/>
+
+### virtualenv<br/>
 在python2.7的环境下运行<br/>
 检查是否已经安装<br/>
 运行```virtualenv --version```<br/>
@@ -46,16 +48,16 @@ source configure.sh
 如果才出现结果为```cml```则说明部署成功<br/>
 
 ## 开发测试
-###集成开发运行服务器<br/>
+### 集成开发运行服务器<br/>
 在虚拟环境venv下运行<br/>
 ``` python manage.py runserver```<br/>
 之后在本地浏览器输入http://localhost:5000    进入运行网站<br/>
 运行默认是debugger模式，可以不用终止服务器进程，直接修改代码进行调试。<br/>
-###运行shell命令行<br/>
+### 运行shell命令行<br/>
 在虚拟环境venv下运行<br/>
 ``` python manage.py shell```<br/>
 可以通过何种情况直接向数据库输入数据，以及创建表<br/>
-###运行单元测试<br/>
+### 运行单元测试<br/>
 在虚拟环境venv下运行<br/>
 ``` python manage.py test```<br/>
 可以运行所有test文件夹下的单元测试代码<br/>
